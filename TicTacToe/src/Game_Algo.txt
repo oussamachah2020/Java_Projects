@@ -1,0 +1,23 @@
+TickTackTo Game (java) :
+ 
+ the Functionality:
+ 	Import the necessary packages;
+	use the Random instance;
+
+ 	Create a Method to run the game;
+ 	Create a Method for the turn;
+ 	Create a Method  to check the winner;
+ 	Create two Method for conditions one for the X and the other for the O;
+
+ the GUI:
+	 Create a Frame [size(800,800), Layout(BorderLayout.NORTH)];
+	 Create a Label [BackgroundColor(25,25,25), Foreground(25,255,0), font("Ink Free",Font.Bold,75)];
+	 Create a Panel;
+	 Create an array of buttons [9 buttons];
+
+	//make a boolean attribute for the players turn;
+
+ + Switch the Players turn with the turn() method by using a boolean attribute we called it player_turn;
+ + check the winner with the check() method that loop throught the buttons using there indexes;
+	
+	
